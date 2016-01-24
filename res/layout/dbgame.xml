@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/edit1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Death-Battle!"
+        android:layout_gravity="center"
+        android:textColor="#FBF276"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape2"
+        android:text="Sith Warrior&apos;s Turn ! :"
+        android:textColor="#FBF276"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/shape3"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="30dp" >
+
+        <requestFocus />
+    </TextView>
+
+    <Button
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape2"
+        android:enabled="false"
+        android:text=" Jedi Warrior&apos;s Turn ! :"
+        android:textColor="#FBF276"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/shape3"
+        android:fontFamily="sans-serif-condensed"
+        android:text=""
+        android:textAlignment="1"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape2"
+        android:text=" Result:"
+        android:textColor="#FBF276"
+        android:textSize="30dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/bsendmail"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape4"
+        android:gravity="center_horizontal"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/disp"
+        android:layout_width="match_parent"
+        android:layout_height="629dp"
+        android:background="@drawable/bg2" >
+
+        <Button
+            android:id="@+id/dtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Press To Call!!"
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/dname"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignRight="@+id/im"
+            android:layout_below="@+id/im"
+            android:layout_marginLeft="45dp"
+            android:layout_toRightOf="@+id/d1"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/dside"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/dname"
+            android:layout_alignRight="@+id/dname"
+            android:layout_below="@+id/dname"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/d2"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dname"
+            android:layout_marginLeft="16dp"
+            android:text="Affiliation : "
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/dspecies"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/dside"
+            android:layout_alignRight="@+id/dside"
+            android:layout_below="@+id/dside"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/d3"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/dspecies"
+            android:layout_alignBottom="@+id/dspecies"
+            android:layout_alignLeft="@+id/d2"
+            android:text="Species : "
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/dgender"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/dspecies"
+            android:layout_alignRight="@+id/dspecies"
+            android:layout_below="@+id/dspecies"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/d4"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/d3"
+            android:layout_below="@+id/d3"
+            android:text="Gender : "
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/d5"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/d4"
+            android:layout_below="@+id/d4"
+            android:text="Last Spotted: "
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/d7"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/d5"
+            android:layout_below="@+id/d5"
+            android:layout_centerVertical="true"
+            android:text="Recent Loc. : "
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/d6"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/d7"
+            android:layout_below="@+id/d7"
+            android:text="Mobile No. : "
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/mobno"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/dplace"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/d6"
+            android:layout_marginTop="14dp"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/d1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/d2"
+            android:layout_alignLeft="@+id/d2"
+            android:text="Name : "
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/ddate"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/d5"
+            android:layout_alignLeft="@+id/dplace"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/dplace"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/dgender"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/d7"
+            android:layout_marginTop="16dp"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/dtitle"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+</ScrollView>

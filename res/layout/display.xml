@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/disp"
+        android:layout_width="match_parent"
+        android:layout_height="617dp"
+        android:background="@drawable/bg2" >
+
+        <TextView
+            android:id="@+id/dtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape4"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/d3"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/dspecies"
+            android:layout_alignBottom="@+id/dspecies"
+            android:layout_alignLeft="@+id/d2"
+            android:fontFamily="sans-serif-medium"
+            android:text="Species : "
+            android:textColor="#FBF276"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dgender"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/dspecies"
+            android:layout_alignRight="@+id/dspecies"
+            android:layout_below="@+id/dspecies"
+            android:fontFamily="sans-serif-condensed"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/d4"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/d3"
+            android:layout_below="@+id/d3"
+            android:fontFamily="sans-serif-medium"
+            android:text="Gender : "
+            android:textColor="#FBF276"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/d5"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/d4"
+            android:layout_below="@+id/d4"
+            android:fontFamily="sans-serif-medium"
+            android:text="Last Spotted: "
+            android:textColor="#FBF276"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ddate"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/d5"
+            android:layout_alignTop="@+id/d5"
+            android:layout_toRightOf="@+id/d2"
+            android:fontFamily="sans-serif-condensed"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dplace"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/d7"
+            android:layout_alignBottom="@+id/d7"
+            android:layout_alignLeft="@+id/ddate"
+            android:fontFamily="sans-serif-condensed"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dspecies"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/dside"
+            android:layout_toRightOf="@+id/d2"
+            android:fontFamily="sans-serif-condensed"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dside"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/d2"
+            android:layout_alignBottom="@+id/d2"
+            android:layout_alignLeft="@+id/dspecies"
+            android:fontFamily="sans-serif-condensed"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dname"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/dside"
+            android:layout_below="@+id/im"
+            android:fontFamily="sans-serif-condensed"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/mobno"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/d6"
+            android:layout_alignBottom="@+id/d6"
+            android:layout_alignLeft="@+id/dplace"
+            android:fontFamily="sans-serif-condensed"
+            android:text="afsgsgsdg"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/d2"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/im"
+            android:layout_below="@+id/dname"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Affiliation : "
+            android:textColor="#FBF276"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/d1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/d2"
+            android:layout_alignLeft="@+id/d2"
+            android:fontFamily="sans-serif-medium"
+            android:text="Name : "
+            android:textColor="#FBF276"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/d6"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/d7"
+            android:layout_below="@+id/dplace"
+            android:fontFamily="sans-serif-medium"
+            android:text="Mobile No. : "
+            android:textColor="#FBF276"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/d7"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_alignLeft="@+id/d5"
+            android:layout_alignTop="@+id/d5"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Recent Loc. : "
+            android:textColor="#FBF276"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/dtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+             android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+</ScrollView>

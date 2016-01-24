@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.starwars.Mainpage" >
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="A long time ago in a galaxy far far away, the Rebel Alliance managed to defeat the Galactic Empire and end the tyranny of Sith. The Jedi battled with and gained victory over the dark side and restored balance to the force. While the galaxy is busy in celebrations, the whereabouts of Skywalker - the last Jedi, are unknown. The Sith cease to survive, yet there are followers who are keen to re-establish the dark side. It is now time for you, to choose your side "
+        android:textAlignment="center"
+        android:textColor="#F6FE07"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/p1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:text="Touch To Proceed!"
+        android:textColor="#F6FE07"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/b2"
+           android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/b1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape"
+        android:text="More Amazing Stuff..!"
+        android:textColor="#F6FE07"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/b3"
+            android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/b2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape"
+        android:text="Rate this App!!!"
+        android:textColor="#F6FE07"
+        android:textSize="25dp" />
+
+</RelativeLayout>

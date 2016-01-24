@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/edit1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Compare Warriors"
+        android:textColor="#FBF276"
+       
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+           android:layout_marginBottom="7dp"
+        android:background="@drawable/shape2"
+        android:text="Choose Warrior NO.1 :"
+        android:textColor="#FBF276"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv1"
+        android:layout_gravity="center"
+        android:background="@drawable/shape3"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="7dp"
+        android:text="Warrior 1"
+        android:textColor="#ffffff"
+        android:textSize="30dp" >
+
+        <requestFocus />
+    </TextView>
+
+    <Button
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_below="@+id/et1"
+        android:layout_gravity="center"
+        android:background="@drawable/shape2"
+        android:text="Choose Warrior NO.2 : "
+        android:textColor="#FBF276"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/shape3"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Warrior 2"
+        android:textAlignment="1"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/bsendmail"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/shape4"
+        android:text="Compare" />
+
+</LinearLayout>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1350dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Name Of The Warrior"
+            android:textColor="#FBF276"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Choose Your Destiny!"
+            android:textColor="#FBF276"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/rAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/shape2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Light Side"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/shape2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Dark Side"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rAns"
+            android:layout_marginTop="34dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Choose Your Species!"
+            android:textColor="#FBF276"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/rAns1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Male"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Female"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Machine"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/cdtext"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/changeDate"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape2"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Current/Selected Date (M-D-YYYY): "
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rAns1"
+            android:layout_alignRight="@+id/rAns"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Enter your Contact No."
+            android:textColor="#FBF276"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/bsave"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/shape4"
+            android:text="Save Details"
+            android:textColor="#FBF276"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@id/textView6"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/cdtext"
+            android:layout_marginTop="53dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Last known presence"
+            android:textColor="#FBF276"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/bupload"
+            android:layout_width="250dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:text="Upload Image"
+            android:textColor="#ffff80"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/name"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/shape3"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:hint="Type Your Mob.No Here!"
+            android:textColor="#FBF276"
+            android:textSize="25dp"
+            android:textStyle="normal|bold|italic" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape3"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:hint="Type Your Name Here!"
+            android:textColor="#FBF276"
+            android:textSize="25dp"
+            android:textStyle="normal|bold|italic" />
+
+        <ImageView
+            android:id="@+id/imgv"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignRight="@+id/number"
+            android:layout_below="@+id/bupload"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/ic_launcher" />
+
+        <Button
+            android:id="@+id/changeDate"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape2"
+            android:text="Click To Change Date"
+            android:textColor="#ffff80"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rAns1"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Last Spotted On"
+            android:textColor="#FBF276"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Output"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cdtext"
+            android:layout_alignBottom="@+id/cdtext"
+            android:layout_alignRight="@+id/number"
+            android:background="@drawable/shape2"
+            android:fontFamily="sans-serif-condensed"
+            android:text="date"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Gender"
+            android:textColor="#FBF276"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+</ScrollView>

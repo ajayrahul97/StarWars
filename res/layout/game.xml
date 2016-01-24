@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/disp"
+        android:layout_width="match_parent"
+        android:layout_height="803dp"
+        android:background="@drawable/bg2" >
+
+        <TextView
+            android:id="@+id/dtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape4"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Death-Battle"
+            android:textColor="#FBF276"
+            android:textSize="30dp" />        
+
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/dtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+             android:layout_marginBottom="8dp"
+            
+            android:src="@drawable/ic_launcher" />
+
+           <TextView
+               android:id="@+id/dcount"
+               android:layout_width="fill_parent"
+               android:layout_height="80dp"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/im"
+               android:background="@drawable/shape4"
+               android:fontFamily="sans-serif-medium"
+               android:gravity="center"
+               android:text="0"
+               android:textColor="#FBF276"
+               android:textSize="30dp" />
+
+               <Button
+                   android:id="@+id/bgame"
+                   android:layout_width="wrap_content"
+                   android:layout_height="50dp"
+                   
+                   android:layout_below="@+id/dcount"
+                   android:layout_marginTop="16dp"
+                   android:background="@drawable/shape4"
+                   android:text="Press to Fight!!"
+                   android:textColor="#FBF276"
+                   android:textSize="30dp" />
+
+               <TextView
+                   android:id="@+id/dtime"
+                   android:layout_width="fill_parent"
+                   android:layout_height="80dp"
+                   android:layout_alignParentLeft="true"
+                   android:layout_below="@+id/dcount"
+                   android:layout_marginTop="100dp"
+                   android:background="@drawable/shape4"
+                   android:fontFamily="sans-serif-medium"
+                   android:gravity="center"
+                   android:text="Time Remaining : 20 seconds"
+                   android:textColor="#FBF276"
+                   android:textSize="30dp" />
+
+               <TextView
+                   android:id="@+id/dresult"
+                   android:layout_width="fill_parent"
+                   android:layout_height="80dp"
+                   android:layout_alignParentLeft="true"
+                   android:layout_below="@+id/dtime"
+                   android:layout_marginTop="20dp"
+                   android:background="@drawable/shape4"
+                   android:fontFamily="sans-serif-medium"
+                   android:gravity="center"
+                   android:text="Your Total Score is : 0"
+                   android:textColor="#FBF276"
+                   android:textSize="30dp" />
+                <Button
+                   android:id="@+id/dsubmit"
+                   android:layout_width="fill_parent"
+                   android:layout_height="50dp"
+                   android:layout_alignParentLeft="true"
+                   android:layout_below="@+id/dresult"
+                   android:layout_marginTop="16dp"
+                   android:enabled="false"
+                   android:background="@drawable/shape4"
+                   android:text="Submit Your Score!"
+                   android:textColor="#FBF276"
+                   android:textSize="30dp" />
+
+    </RelativeLayout>
+
+</ScrollView>
